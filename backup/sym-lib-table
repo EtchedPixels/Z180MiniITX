@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Zilog_Z180)(type Legacy)(uri ${KIPRJMOD}/Zilog_Z180.lib)(options "")(descr ""))
+  (lib (name PS2_MINIDIN6_FEMALE)(type Legacy)(uri /home/alan/Bulk/KICAD/zxkey/PS2_MINIDIN6_FEMALE.lib)(options "")(descr ""))
+)
