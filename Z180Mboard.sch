@@ -3020,7 +3020,7 @@ Connection ~ 6200 22600
 Wire Wire Line
 	6200 22600 6800 22600
 Text Notes 12500 4700 0    50   ~ 0
-78-7F: PPA\n70-77: FDC\n68-6F: VID\n
+78-7F: PPA\n70-77: FDC\n\n
 Wire Wire Line
 	9100 20700 9100 20900
 Wire Wire Line
@@ -3554,4 +3554,65 @@ Wire Wire Line
 	11850 14650 11050 14650
 Wire Wire Line
 	11050 14650 11050 15500
+Text GLabel 13500 2450 0    50   Input ~ 0
+EXTMEM
+$Comp
+L power:GND #PWR0164
+U 1 1 6383E07D
+P 13500 4250
+F 0 "#PWR0164" H 13500 4000 50  0001 C CNN
+F 1 "GND" H 13505 4077 50  0000 C CNN
+F 2 "" H 13500 4250 50  0001 C CNN
+F 3 "" H 13500 4250 50  0001 C CNN
+	1    13500 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13500 3850 13500 4250
+$Comp
+L Connector_Generic:Conn_01x15 J24
+U 1 1 6380471E
+P 13700 3150
+F 0 "J24" H 13780 3192 50  0000 L CNN
+F 1 "Conn_01x15" H 13780 3101 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" H 13700 3150 50  0001 C CNN
+F 3 "~" H 13700 3150 50  0001 C CNN
+	1    13700 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13500 3650 13300 3650
+Wire Wire Line
+	13300 3650 13300 3850
+Wire Wire Line
+	13300 3850 13500 3850
+Connection ~ 13500 3850
+Wire Wire Line
+	13300 3650 13300 3450
+Wire Wire Line
+	13300 3450 13500 3450
+Connection ~ 13300 3650
+Wire Wire Line
+	13300 3450 13300 3250
+Wire Wire Line
+	13300 3250 13500 3250
+Connection ~ 13300 3450
+Wire Wire Line
+	13300 3250 13300 3050
+Wire Wire Line
+	13300 3050 13500 3050
+Connection ~ 13300 3250
+Text GLabel 13500 2550 0    50   Input ~ 0
+VCC
+Text GLabel 13500 2650 0    50   3State ~ 0
+SDA_LINE
+Text GLabel 13500 2750 0    50   3State ~ 0
+SCL_LINE
+Text GLabel 13500 2850 0    50   3State ~ 0
+3V3
+NoConn ~ 13500 3750
+NoConn ~ 13500 3550
+NoConn ~ 13500 3350
+NoConn ~ 13500 3150
+NoConn ~ 13500 2950
 $EndSCHEMATC
