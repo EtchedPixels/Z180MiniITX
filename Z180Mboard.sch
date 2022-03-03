@@ -3615,4 +3615,14 @@ NoConn ~ 13500 3550
 NoConn ~ 13500 3350
 NoConn ~ 13500 3150
 NoConn ~ 13500 2950
+Text Notes 950  5000 0    50   ~ 10
+FIXME: DC is a 5v signal this is a 3v3 slot!\n
+Text Notes 14200 8650 0    50   ~ 0
+FIXME: Swap DC and EXTMEM over
+Text Notes 9950 11100 0    50   ~ 0
+FIXME: Add surface mount footprint as well
+Text Notes 12400 4850 0    50   ~ 0
+FIXME: Move to 40-4F to match EDFDC\nand clear space for extmem to be useful
+Text Notes 9450 3850 0    50   ~ 0
+FIXME: change EXTMEM to instead control external MREQ on high address range.
 $EndSCHEMATC
