@@ -987,13 +987,9 @@ Text GLabel 4350 6300 0    50   Input ~ 0
 TX_1
 Text GLabel 4850 6300 2    50   Output ~ 0
 RX_1
-NoConn ~ 1400 6300
 NoConn ~ 1900 5400
-NoConn ~ 2850 5400
 NoConn ~ 3350 5400
-NoConn ~ 4300 5400
 NoConn ~ 4800 5400
-NoConn ~ 5750 5400
 NoConn ~ 6250 5400
 NoConn ~ 4350 6500
 NoConn ~ 4350 6600
@@ -1923,9 +1919,7 @@ Text GLabel 3100 7800 2    50   Input ~ 0
 CS6
 NoConn ~ 3100 7500
 NoConn ~ 2600 7500
-NoConn ~ 8500 9850
 NoConn ~ 8500 9950
-NoConn ~ 9150 9850
 NoConn ~ 9150 9950
 NoConn ~ 6600 6850
 $Comp
@@ -3094,17 +3088,16 @@ Wire Wire Line
 Connection ~ 6650 22600
 Wire Wire Line
 	6650 22600 7100 22600
-NoConn ~ 1400 5400
 NoConn ~ 15000 4750
 $Comp
-L Connector_Generic:Conn_02x09_Odd_Even J21
+L Connector_Generic:Conn_02x10_Odd_Even J21
 U 1 1 624AFF30
-P 11300 11450
-F 0 "J21" H 11350 12067 50  0000 C CNN
-F 1 "Conn_02x09_Odd_Even" H 11350 11976 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical" H 11300 11450 50  0001 C CNN
-F 3 "~" H 11300 11450 50  0001 C CNN
-	1    11300 11450
+P 11300 11350
+F 0 "J21" H 11350 11967 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 11350 11876 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 11300 11350 50  0001 C CNN
+F 3 "~" H 11300 11350 50  0001 C CNN
+	1    11300 11350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3118,7 +3111,7 @@ F 3 "" H 11600 11850 50  0001 C CNN
 	1    11600 11850
 	1    0    0    -1  
 $EndComp
-Text GLabel 11600 11050 2    50   Input ~ 0
+Text GLabel 11600 10950 2    50   Input ~ 0
 VCC
 Text GLabel 11600 11450 2    50   Input ~ 0
 SLOTCS0
@@ -3149,14 +3142,14 @@ A2
 Text GLabel 12050 4650 2    50   Output ~ 0
 SLOTCS0
 $Comp
-L Connector_Generic:Conn_02x09_Odd_Even J22
+L Connector_Generic:Conn_02x10_Odd_Even J22
 U 1 1 625583CE
-P 12700 11450
-F 0 "J22" H 12750 12067 50  0000 C CNN
-F 1 "Conn_02x09_Odd_Even" H 12750 11976 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical" H 12700 11450 50  0001 C CNN
-F 3 "~" H 12700 11450 50  0001 C CNN
-	1    12700 11450
+P 12700 11350
+F 0 "J22" H 12750 11967 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 12750 11876 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 12700 11350 50  0001 C CNN
+F 3 "~" H 12700 11350 50  0001 C CNN
+	1    12700 11350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3170,7 +3163,7 @@ F 3 "" H 13000 11850 50  0001 C CNN
 	1    13000 11850
 	1    0    0    -1  
 $EndComp
-Text GLabel 13000 11050 2    50   Input ~ 0
+Text GLabel 13000 10950 2    50   Input ~ 0
 VCC
 Text GLabel 13000 11450 2    50   Input ~ 0
 SLOTCS1
@@ -3203,14 +3196,14 @@ SLOTCS1
 Text Notes 12400 12150 2    50   ~ 0
 FIXME RD AND WR GO TO 18 PIN ?  ADD CLK
 $Comp
-L Connector_Generic:Conn_02x09_Odd_Even J20
+L Connector_Generic:Conn_02x10_Odd_Even J20
 U 1 1 62605154
-P 14050 11450
-F 0 "J20" H 14100 12067 50  0000 C CNN
-F 1 "Conn_02x09_Odd_Even" H 14100 11976 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical" H 14050 11450 50  0001 C CNN
-F 3 "~" H 14050 11450 50  0001 C CNN
-	1    14050 11450
+P 14050 11350
+F 0 "J20" H 14100 11967 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 14100 11876 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 14050 11350 50  0001 C CNN
+F 3 "~" H 14050 11350 50  0001 C CNN
+	1    14050 11350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3224,7 +3217,7 @@ F 3 "" H 14350 11850 50  0001 C CNN
 	1    14350 11850
 	1    0    0    -1  
 $EndComp
-Text GLabel 14350 11050 2    50   Input ~ 0
+Text GLabel 14350 10950 2    50   Input ~ 0
 VCC
 Text GLabel 14350 11450 2    50   Input ~ 0
 SLOTCS2
@@ -3424,4 +3417,176 @@ RESET
 Wire Wire Line
 	7950 19600 7950 19800
 Connection ~ 7950 19800
+Text GLabel 14350 11050 2    50   Input ~ 0
+M1
+Text GLabel 13850 10950 0    50   Input ~ 0
+CLK
+Text GLabel 12500 10950 0    50   Input ~ 0
+CLK
+Text GLabel 13000 11050 2    50   Input ~ 0
+M1
+Text GLabel 11600 11050 2    50   Input ~ 0
+M1
+Text GLabel 11100 10950 0    50   Input ~ 0
+CLK
+Text GLabel 8500 9850 0    50   Output ~ 0
+DC3
+Text GLabel 9150 9850 2    50   Input ~ 0
+DC
+Text GLabel 1400 6300 0    50   Input ~ 0
+DC3
+Text GLabel 1400 5400 0    50   Input ~ 0
+DC3
+Text GLabel 4300 5400 0    50   Input ~ 0
+DC3
+Text GLabel 5750 5400 0    50   Input ~ 0
+DC3
+Text GLabel 2850 5400 0    50   Input ~ 0
+DC3
+$Comp
+L Connector_Generic:Conn_02x13_Odd_Even J23
+U 1 1 62A4C97D
+P 8050 14900
+F 0 "J23" H 8100 15717 50  0000 C CNN
+F 1 "Conn_02x13_Odd_Even" H 8100 15626 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical" H 8050 14900 50  0001 C CNN
+F 3 "~" H 8050 14900 50  0001 C CNN
+	1    8050 14900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 14300 8250 14400
+Connection ~ 8250 14400
+Wire Wire Line
+	8250 14400 8250 14500
+Connection ~ 8250 14500
+Wire Wire Line
+	8250 14500 8250 14600
+Connection ~ 8250 14600
+Wire Wire Line
+	8250 14600 8250 14700
+Connection ~ 8250 14700
+Wire Wire Line
+	8250 14700 8250 14800
+Connection ~ 8250 14800
+Wire Wire Line
+	8250 14800 8250 14900
+Connection ~ 8250 14900
+Wire Wire Line
+	8250 14900 8250 15000
+Connection ~ 8250 15000
+Wire Wire Line
+	8250 15000 8250 15100
+Connection ~ 8250 15100
+Wire Wire Line
+	8250 15100 8250 15200
+Connection ~ 8250 15200
+Wire Wire Line
+	8250 15200 8250 15300
+Connection ~ 8250 15300
+Wire Wire Line
+	8250 15300 8250 15400
+Connection ~ 8250 15400
+Wire Wire Line
+	8250 15400 8250 15500
+$Comp
+L power:GND #PWR0150
+U 1 1 62A87907
+P 8250 15500
+F 0 "#PWR0150" H 8250 15250 50  0001 C CNN
+F 1 "GND" H 8255 15327 50  0000 C CNN
+F 2 "" H 8250 15500 50  0001 C CNN
+F 3 "" H 8250 15500 50  0001 C CNN
+	1    8250 15500
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 15500
+NoConn ~ 7750 14500
+Text GLabel 7750 15400 0    50   Input ~ 0
+SIDE1
+Wire Wire Line
+	6650 13550 6650 15300
+Wire Wire Line
+	6650 15300 7750 15300
+Wire Wire Line
+	7750 15200 6900 15200
+Wire Wire Line
+	6900 15200 6900 13450
+Wire Wire Line
+	7750 15100 7150 15100
+Wire Wire Line
+	7150 15100 7150 13350
+Text GLabel 7750 15000 0    50   Input ~ 0
+WGATE
+Text GLabel 7750 14900 0    50   Input ~ 0
+WDATA
+Text GLabel 7750 14800 0    50   Input ~ 0
+STEP
+Text GLabel 7750 14700 0    50   Input ~ 0
+DIR
+Text GLabel 7750 14600 0    50   Input ~ 0
+MOTEA
+Wire Wire Line
+	6400 13750 6400 15500
+Wire Wire Line
+	6400 15500 7750 15500
+Text GLabel 7750 14400 0    50   Input ~ 0
+DRVSA
+Wire Wire Line
+	7400 12450 7400 14300
+Wire Wire Line
+	7400 14300 7750 14300
+$Comp
+L Connector_Generic:Conn_01x16 J25
+U 1 1 62BAD6C7
+P 11050 16700
+F 0 "J25" H 11130 16692 50  0000 L CNN
+F 1 "Conn_01x16" H 11130 16601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Horizontal" H 11050 16700 50  0001 C CNN
+F 3 "~" H 11050 16700 50  0001 C CNN
+	1    11050 16700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x16 J26
+U 1 1 62BB1325
+P 10650 16700
+F 0 "J26" H 10568 17617 50  0000 C CNN
+F 1 "Conn_01x16" H 10568 17526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 10650 16700 50  0001 C CNN
+F 3 "~" H 10650 16700 50  0001 C CNN
+	1    10650 16700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J27
+U 1 1 62BB463B
+P 9800 16750
+F 0 "J27" H 9772 16774 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 9772 16683 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9800 16750 50  0001 C CNN
+F 3 "~" H 9800 16750 50  0001 C CNN
+	1    9800 16750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0151
+U 1 1 62BCAD78
+P 9600 16850
+F 0 "#PWR0151" H 9600 16600 50  0001 C CNN
+F 1 "GND" H 9605 16677 50  0000 C CNN
+F 2 "" H 9600 16850 50  0001 C CNN
+F 3 "" H 9600 16850 50  0001 C CNN
+	1    9600 16850
+	1    0    0    -1  
+$EndComp
+Text GLabel 9600 16750 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	9600 16650 9200 16650
+Wire Wire Line
+	9200 16650 9200 16850
+Wire Wire Line
+	9200 16850 9600 16850
+Connection ~ 9600 16850
 $EndSCHEMATC
